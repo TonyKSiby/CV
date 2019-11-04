@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contactme@</title>
+</head>
+
+<body>
+  <h1> Contact details</h1>
+  <p>
+    <h4>My Address</h4>
+    <p>
+      173 A, Bhagavty Lane, Temple Junction, Vellayambalam,Trivandrum
+    </p>
+  </p>
+  <ol>
+    <li>Phone no: 9539330689</li>
+    <li>email id: tonytks3737@gmail.com</li>
+  </ol><hr>
+  <h3> Enter your Contacts</h3>
+  <form  action="mailto:tonytks3737@gmail.com" method="post" enctype="text/plain">
+    <div class="form-example">
+      <label for="Name:"> Enter your name: </label> <input type="text" name="Enter name here" required>
+    </div>
+    <div class="form-example">
+      <label for="email">Enter your email: </label>
+      <input type="email" name="email" id="email" required>
+    </div>
+    <div class="form-example">
+      <label for="phone">Enter your phone number:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+    </div>
+    <div class="form-example">
+      <label for="Your Message"></label>
+      <textarea name=" your messge" rows="10" cols="30">Type your message here</textarea>
+    </div>
+    <div class="form-example">
+      <input type="submit" value="Submit!">
+    </div>
+  </form>
+</body>
+
+</html>
